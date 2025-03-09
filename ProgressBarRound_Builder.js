@@ -74,12 +74,6 @@
             </tr>
             <tr>
                 <td>
-                    <p>Gradient Color</p>
-                    <input id="builder_barGradient" type="text" placeholder="Enter CSS Gradient">
-                </td>
-            </tr>
-            <tr>
-                <td>
                     <p>Empty Bar Color</p>
                     <input id="builder_emptyBarColor" type="color" placeholder="Select Empty Bar Color">
                 </td>
@@ -104,7 +98,6 @@
                 detail: {
                     properties: {
                         percentage: this.percentage,
-                        barGradient: this.barGradient,
                         emptyBarColor: this.emptyBarColor
                     },
                 },
@@ -116,13 +109,6 @@
         }
         get percentage() {
             return this._shadowRoot.getElementById("builder_percentage").value;
-        }
-
-        set barGradient(value) {
-            this._shadowRoot.getElementById("builder_barGradient").value = value;
-        }
-        get barGradient() {
-            return this._shadowRoot.getElementById("builder_barGradient").value;
         }
 
         set emptyBarColor(value) {
