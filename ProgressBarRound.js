@@ -10,7 +10,7 @@
         }
 
         .progress-container {
-            width: 100%;
+            width: auto;
             height: 100%;
             background-color: var(--empty-bar-color, #e0e0e0);
             border-radius: 5px;
