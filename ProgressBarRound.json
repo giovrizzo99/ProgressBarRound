@@ -1,6 +1,6 @@
 {
     "id": "com.gr.sap.progressbarround",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "Progress Bar Round",
     "description": "Progress Bar Round",
     "newInstancePrefix": "ProgressBarRound",
@@ -8,14 +8,14 @@
         {
             "kind": "main",
             "tag": "com-gr-progressbarround",
-            "url": "https:\/\/cdn.jsdelivr.net\/gh\/giovrizzo99\/ProgressBarRound@latest\/ProgressBarRound.js",
+            "url": "https:\/\/cdn.jsdelivr.net\/gh\/giovrizzo99\/ProgressBarRound@main\/ProgressBarRound.js",
             "integrity": "",
             "ignoreIntegrity": true
         },
         {
             "kind": "builder",
             "tag": "com-gr-progressbarround-builder",
-            "url": "https:\/\/cdn.jsdelivr.net\/gh\/giovrizzo99\/ProgressBarRound@latest\/ProgressBarRound_Builder.js",
+            "url": "https:\/\/cdn.jsdelivr.net\/gh\/giovrizzo99\/ProgressBarRound@main\/ProgressBarRound_Builder.js",
             "integrity": "",
             "ignoreIntegrity": true
         }
