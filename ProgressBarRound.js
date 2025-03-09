@@ -29,7 +29,9 @@
             position: absolute;
             top: 50%;
             transform: translate(-50%, -50%);
-            height: 100%;
+            width: auto;
+            height: 100%; /* Makes the circle take full height */
+            aspect-ratio: 1 / 1; /* Ensures it's a perfect circle */
             border-radius: 50%;
             background-color: #05446b; /* Dark blue inside */
             border: 3px solid #69a8e2; /* Light blue border */
