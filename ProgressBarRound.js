@@ -21,7 +21,7 @@
         .progress-bar {
             height: 100%;
             width: 0%;
-            background: linear-gradient(90deg, #ff512f, #dd2476);
+            background: linear-gradient(90deg, #05446b, #69a8e2);
             transition: width 0.5s ease-in-out;
         }
 
@@ -29,16 +29,17 @@
             position: absolute;
             top: 50%;
             transform: translate(-50%, -50%);
-            width: 30px;
-            height: 30px;
+            width: 35px;
+            height: 35px;
             border-radius: 50%;
-            background-color: white;
+            background-color: #05446b; /* Dark blue inside */
+            border: 3px solid #69a8e2; /* Light blue border */
             display: flex;
             align-items: center;
             justify-content: center;
             font-size: 12px;
             font-weight: bold;
-            color: black;
+            color: white;
             box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
         }
     </style>
@@ -66,15 +67,14 @@
             const progressIndicator = this.shadowRoot.querySelector(".progress-indicator");
 
             const percentage = this._props.percentage || 50;
-            const gradient = this._props.barGradient || "linear-gradient(90deg, #ff512f, #dd2476)";
             const emptyBarColor = this._props.emptyBarColor || "#e0e0e0";
 
             progressBar.style.width = `${percentage}%`;
-            progressBar.style.background = gradient;
+            progressBar.style.background = "linear-gradient(90deg, #05446b, #69a8e2)";
             this.shadowRoot.querySelector(".progress-container").style.backgroundColor = emptyBarColor;
             
             progressIndicator.innerText = `${percentage}%`;
-            progressIndicator.style.left = `calc(${percentage}% - 15px)`; // Centering the indicator
+            progressIndicator.style.left = `calc(${percentage}% - 0px)`; /* Center aligns exactly */
 
         }
 
