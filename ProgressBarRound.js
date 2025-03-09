@@ -29,7 +29,6 @@
             position: absolute;
             top: 50%;
             transform: translate(-50%, -50%);
-            width: 10%;
             height: 100%;
             border-radius: 50%;
             background-color: #05446b; /* Dark blue inside */
