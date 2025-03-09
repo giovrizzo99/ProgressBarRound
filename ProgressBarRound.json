@@ -15,7 +15,7 @@
         {
             "kind": "builder",
             "tag": "com-gr-progressbarround-builder",
-            "url": "",
+            "url": "https:\/\/cdn.jsdelivr.net\/gh\/giovrizzo99\/ProgressBarRound@main\/ProgressBarRound_Builder.js",
             "integrity": "",
             "ignoreIntegrity": true
         }
