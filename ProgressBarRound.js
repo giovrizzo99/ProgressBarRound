@@ -10,8 +10,8 @@
         }
 
         .progress-container {
-            width: auto;
-            height: 100%;
+            width: 20px;
+            height: 20px;
             background-color: var(--empty-bar-color, #e0e0e0);
             border-radius: 5px;
             overflow: hidden;
