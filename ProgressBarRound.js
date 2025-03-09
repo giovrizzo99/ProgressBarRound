@@ -32,7 +32,7 @@
             width: 20px;
             height: 20px;
             border-radius: 50%;
-            background-color: #05446b; /* Dark blue inside */
+            background-color: #ffffff; /* Dark blue inside */
             border: 3px solid #69a8e2; /* Light blue border */
             display: flex;
             align-items: center;
