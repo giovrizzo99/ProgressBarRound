@@ -3,7 +3,7 @@
     "version": "1.0.1",
     "name": "Progress Bar Round",
     "description": "Progress Bar Round",
-    "newInstancePrefix": "ProgressBarRound",
+    "newInstancePrefix": "ProgressBarRoundv2",
     "webcomponents": [
         {
             "kind": "main",
