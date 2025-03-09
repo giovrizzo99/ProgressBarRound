@@ -2,7 +2,7 @@
     "id": "com.gr.sap.progressbarround",
     "version": "1.0.1",
     "name": "Progress Bar Round",
-    "description": "Progress Bar Round",
+    "description": "Progress BarRound",
     "newInstancePrefix": "ProgressBarRound",
     "webcomponents": [
         {
