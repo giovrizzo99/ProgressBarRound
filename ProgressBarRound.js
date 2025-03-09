@@ -29,10 +29,11 @@
             position: absolute;
             top: 50%;
             transform: translate(-50%, -50%);
-            width: 20px;
-            height: 20px;
+            width: auto;
+            height: 100%;
+            aspect-ratio: 1 / 1;
             border-radius: 50%;
-            background-color: #ffffff; /* Dark blue inside */
+            background-color: #05446b; /* Dark blue inside */
             border: 3px solid #69a8e2; /* Light blue border */
             display: flex;
             align-items: center;
