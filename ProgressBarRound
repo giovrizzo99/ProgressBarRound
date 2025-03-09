@@ -1,0 +1,95 @@
+{
+    "id": "com.gr.sap.progressbarround",
+    "version": "1.0.0",
+    "name": "Progress Bar Round",
+    "description": "Progress Bar Round",
+    "newInstancePrefix": "ProgressBarRound",
+    "webcomponents": [
+        {
+            "kind": "main",
+            "tag": "com-gr-progressbarround",
+            "url": "",
+            "integrity": "",
+            "ignoreIntegrity": true
+        },
+        {
+            "kind": "builder",
+            "tag": "com-gr-progressbarround-builder",
+            "url": "",
+            "integrity": "",
+            "ignoreIntegrity": true
+        }
+    ],
+    "properties": {
+        "percentage": {
+            "description": "Percentage",
+            "type": "integer",
+            "default": 50
+        },
+        "barColor": {
+            "description": "Bar Color",
+            "type": "string",
+            "default": "#00243b"
+        },
+        "emptyBarColor": {
+            "description": "Empty Bar Color",
+            "type": "string",
+            "default": "#a9b4be"
+        }
+    },
+    "methods": {
+        "setPercentage": {
+            "description": "Set Percentage",
+            "parameters": [
+                {
+                    "name": "percentage",
+                    "type": "integer",
+                    "description": "Percentage"
+                }
+            ],
+            "body": "this.percentage = percentage;"
+        },
+        "getPercentage": {
+            "returnType": "integer",
+            "description": "Return Percentage",
+            "body": "return this.percentage;"
+        },
+        "setBarColor": {
+            "description": "Set Bar Color",
+            "parameters": [
+                {
+                    "name": "barColor",
+                    "type": "string",
+                    "description": "Bar Color"
+                }
+            ],
+            "body": "this.barColor = barColor;"
+        },
+        "getBarColor": {
+            "returnType": "string",
+            "description": "Return Bar Color",
+            "body": "return this.barColor;"
+        },
+        "setEmptyBarColor": {
+            "description": "Set Empty Bar Color",
+            "parameters": [
+                {
+                    "name": "emptyBarColor",
+                    "type": "string",
+                    "description": "Empty Bar Color"
+                }
+            ],
+            "body": "this.emptyBarColor = emptyBarColor;"
+        },
+        "getEmptyBarColor": {
+            "returnType": "string",
+            "description": "Return Empty Bar Color",
+            "body": "return this.emptyBarColor;"
+        }
+    },
+    "events": {
+        "onClick": {
+            "description": "User Clicked."
+        }
+    }
+}
