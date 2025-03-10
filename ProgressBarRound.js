@@ -82,7 +82,7 @@
             this.shadowRoot.querySelector(".progress-container").style.backgroundColor = emptyBarColor;
             
             progressIndicator.innerText = `${percentage}%`;
-            progressIndicator.style.left = `calc(${adjperc}% - 0px)`; /* Center aligns exactly */
+            progressIndicator.style.left = `${adjperc}%`; /* Center aligns exactly */
 
         }
 
