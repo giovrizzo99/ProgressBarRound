@@ -29,8 +29,8 @@
             position: absolute;
             top: 50%;
             transform: translate(-50%, -50%);
-            width: 30px;
-            height: 30px;
+            width: 40px;
+            height: 40px;
             border-radius: 50%;
             background-color: #05446b; /* Dark blue inside */
             border: 3px solid #69a8e2; /* Light blue border */
@@ -66,7 +66,7 @@
             const progressBar = this.shadowRoot.querySelector(".progress-bar");
             const progressIndicator = this.shadowRoot.querySelector(".progress-indicator");
 
-            const percentage = this._props.percentage || 50;
+            const percentage = this._props.percentage || 0;
             const emptyBarColor = this._props.emptyBarColor || "#e0e0e0";
             var adjperc = percentage;
             if(adjperc < 8 ){
