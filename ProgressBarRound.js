@@ -29,9 +29,8 @@
             position: absolute;
             top: 50%;
             transform: translate(-50%, -50%);
-            width: auto;
-            height: 100%;
-            aspect-ratio: 1 / 1;
+            width: 30px;
+            height: 30px;
             border-radius: 50%;
             background-color: #05446b; /* Dark blue inside */
             border: 3px solid #69a8e2; /* Light blue border */
