@@ -69,13 +69,20 @@
 
             const percentage = this._props.percentage || 50;
             const emptyBarColor = this._props.emptyBarColor || "#e0e0e0";
+            var adjperc = percentage;
+            if(adjperc < 8 ){
+                adjperc = 8;
+            } 
+            if(adjperc > 92){
+                adjperc = 92;
+            }
 
             progressBar.style.width = `${percentage}%`;
             progressBar.style.background = "linear-gradient(90deg, #05446b, #69a8e2)";
             this.shadowRoot.querySelector(".progress-container").style.backgroundColor = emptyBarColor;
             
             progressIndicator.innerText = `${percentage}%`;
-            progressIndicator.style.left = `calc(${percentage}% - 0px)`; /* Center aligns exactly */
+            progressIndicator.style.left = `calc(${adjperc}% - 0px)`; /* Center aligns exactly */
 
         }
 
