@@ -5,7 +5,7 @@
         :host {
             display: block;
             width: 100%;
-            height: 30px;
+            height: 40px;
             position: relative;
         }
 
@@ -29,8 +29,8 @@
             position: absolute;
             top: 50%;
             transform: translate(-50%, -50%);
-            width: 40px;
-            height: 40px;
+            width: 34px;
+            height: 34px;
             border-radius: 50%;
             background-color: #05446b; /* Dark blue inside */
             border: 3px solid #69a8e2; /* Light blue border */
