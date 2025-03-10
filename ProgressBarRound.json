@@ -8,14 +8,14 @@
         {
             "kind": "main",
             "tag": "com-gr-progressbarround",
-            "url": "https:\/\/cdn.jsdelivr.net\/gh\/giovrizzo99\/ProgressBarRound@mainv1\/ProgressBarRound.js",
+            "url": "https:\/\/cdn.jsdelivr.net\/gh\/giovrizzo99\/ProgressBarRound@mainv3\/ProgressBarRound.js",
             "integrity": "",
             "ignoreIntegrity": true
         },
         {
             "kind": "builder",
             "tag": "com-gr-progressbarround-builder",
-            "url": "https:\/\/cdn.jsdelivr.net\/gh\/giovrizzo99\/ProgressBarRound@mainv1\/ProgressBarRound_Builder.js",
+            "url": "https:\/\/cdn.jsdelivr.net\/gh\/giovrizzo99\/ProgressBarRound@mainv3\/ProgressBarRound_Builder.js",
             "integrity": "",
             "ignoreIntegrity": true
         }
