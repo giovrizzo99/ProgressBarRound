@@ -1,6 +1,6 @@
 {
     "id": "com.gr.sap.progressbarround",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "name": "Progress Bar Round",
     "description": "Progress Bar Round",
     "newInstancePrefix": "ProgressBarRound",
@@ -8,14 +8,14 @@
         {
             "kind": "main",
             "tag": "com-gr-progressbarround",
-            "url": "https:\/\/cdn.jsdelivr.net\/gh\/giovrizzo99\/ProgressBarRound@mainv3\/ProgressBarRound.js",
+            "url": "https:\/\/cdn.jsdelivr.net\/gh\/giovrizzo99\/ProgressBarRound@mainv4\/ProgressBarRound.js",
             "integrity": "",
             "ignoreIntegrity": true
         },
         {
             "kind": "builder",
             "tag": "com-gr-progressbarround-builder",
-            "url": "https:\/\/cdn.jsdelivr.net\/gh\/giovrizzo99\/ProgressBarRound@mainv3\/ProgressBarRound_Builder.js",
+            "url": "https:\/\/cdn.jsdelivr.net\/gh\/giovrizzo99\/ProgressBarRound@mainv4\/ProgressBarRound_Builder.js",
             "integrity": "",
             "ignoreIntegrity": true
         }
@@ -24,7 +24,7 @@
         "percentage": {
             "description": "Percentage",
             "type": "integer",
-            "default": 50
+            "default": 0
         },
         "barColor": {
             "description": "Bar Color",
