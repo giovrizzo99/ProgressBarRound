@@ -19,7 +19,7 @@
         }
 
         .progress-bar {
-            height: 100%;
+            height: 90%;
             width: 0%;
             background: linear-gradient(90deg, #05446b, #69a8e2);
             transition: width 0.5s ease-in-out;
