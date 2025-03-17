@@ -1,41 +1,32 @@
 {
     "id": "com.gr.sap.progressbarround",
-    "version": "1.0.7",
+    "version": "2.0.2",
     "name": "Progress Bar Round",
     "description": "Progress Bar Round",
     "newInstancePrefix": "ProgressBarRound",
+    "supportsMobile": true,
     "webcomponents": [
         {
             "kind": "main",
             "tag": "com-gr-progressbarround",
-            "url": "https:\/\/cdn.jsdelivr.net\/gh\/giovrizzo99\/ProgressBarRound@mainv7\/ProgressBarRound.js",
+            "url": "https:\/\/cdn.jsdelivr.net\/gh\/giovrizzo99\/ProgressBarRound@mainv202\/ProgressBarRound.js",
             "integrity": "",
             "ignoreIntegrity": true
         },
         {
             "kind": "builder",
             "tag": "com-gr-progressbarround-builder",
-            "url": "https:\/\/cdn.jsdelivr.net\/gh\/giovrizzo99\/ProgressBarRound@mainv7\/ProgressBarRound_Builder.js",
+            "url": "https:\/\/cdn.jsdelivr.net\/gh\/giovrizzo99\/ProgressBarRound@mainv202\/ProgressBarRound_Builder.js",
             "integrity": "",
             "ignoreIntegrity": true
         }
     ],
     "properties": {
-        "percentage": {
-            "description": "Percentage",
-            "type": "integer",
-            "default": 0
-        },
-        "barColor": {
-            "description": "Bar Color",
-            "type": "string",
-            "default": "#00243b"
-        },
-        "emptyBarColor": {
-            "description": "Empty Bar Color",
-            "type": "string",
-            "default": "#a9b4be"
-        }
+        "percentage": { "description": "Percentage", "type": "integer", "default": 0 },
+        "barColor": { "description": "Bar Color", "type": "string", "default": "#00243b" },
+        "emptyBarColor": { "description": "Empty Bar Color", "type": "string", "default": "#f0f0f0" },
+        "startColor": { "description": "Start Gradient Color", "type": "string", "default": "#05446b" },
+        "endColor": { "description": "End Gradient Color", "type": "string", "default": "#69a8e2" }
     },
     "methods": {
         "setPercentage": {
